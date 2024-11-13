@@ -13,6 +13,6 @@ WITH HighDemandProducts AS (
         p.productName
     ORDER BY 
         total_quantity_sold DESC
-    LIMIT 10  -- Adjusting based on available data
+    LIMIT 100  -- Adjust to any I need
 )
 SELECT * FROM HighDemandProducts;
