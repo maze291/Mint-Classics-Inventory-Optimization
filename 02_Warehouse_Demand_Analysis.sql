@@ -13,8 +13,8 @@ WITH HighDemandProducts AS (
         p.productName
     ORDER BY 
         total_quantity_sold DESC
-    LIMIT 10
-) -- using the highest demand product code for this
+    LIMIT 100
+) -- using the highest demand products' code for this
 SELECT 
     w.warehouseCode, 
     w.warehouseName, 
